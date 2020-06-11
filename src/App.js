@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Greetings from './Components/child'
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello React by Faiz</h1>
+     <Greetings name="faiz" language="Javascript"/>
     </div>
   );
 }
